@@ -16,3 +16,4 @@ Here are some ideas to get you started:
 -->
 git config -- global user.name "Lance Velasquez"
 git config -- global usser.email "velasquezlance7@gmail.com"
+git init
