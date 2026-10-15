@@ -24,10 +24,10 @@ const skillIcons = {
 };
 
 const brandLogos = {
-  Canva: "/skill-logos/canva.svg",
-  "Microsoft Excel": "/skill-logos/excel.svg",
-  "Microsoft Word": "/skill-logos/word.svg",
-  "Microsoft PowerPoint": "/skill-logos/powerpoint.svg",
+  Canva: `${import.meta.env.BASE_URL}skill-logos/canva.svg`,
+  "Microsoft Excel": `${import.meta.env.BASE_URL}skill-logos/excel.svg`,
+  "Microsoft Word": `${import.meta.env.BASE_URL}skill-logos/word.svg`,
+  "Microsoft PowerPoint": `${import.meta.env.BASE_URL}skill-logos/powerpoint.svg`,
 };
 
 // Row 1: Adaptability until Canva -> moves to the left

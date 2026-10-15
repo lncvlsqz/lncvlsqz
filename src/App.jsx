@@ -82,7 +82,7 @@ export default function App() {
                   firstContent={
                     <img
                       className="profile-pixel-img"
-                      src="/images/profile-light.jpg"
+                      src={profile.photo}
                       alt={profile.name}
                       width="300"
                       height="375"
@@ -92,7 +92,7 @@ export default function App() {
                   secondContent={
                     <img
                       className="profile-pixel-img"
-                      src="/images/profile-dark.jpg"
+                      src={profile.photoDark}
                       alt={profile.name}
                       width="300"
                       height="375"
