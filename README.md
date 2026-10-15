@@ -1,136 +1,101 @@
-# Lance Velasquez — Portfolio
+<div align="center">
 
-A modern, high-performance personal portfolio website built with **React 19**, **Vite**, **Tailwind CSS**, and **WebGL2**. Designed with sleek typography, smooth animations, interactive particles, and a responsive light/dark theme.
+# Hi there, I'm Lance Velasquez 👋
 
----
+### 🎓 Computer Engineering Student & Aspiring Hardware/IoT Engineer
+📍 **Cabuyao, Laguna, Philippines**
 
-## 🚀 Features
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-GitHub_Pages-000000?style=for-the-badge&logo=github&logoColor=white)](https://lncvlsqz.github.io/lncvlsqz/)
+[![Vercel Mirror](https://img.shields.io/badge/Live_Portfolio-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://lncvlsqz.vercel.app/)
+[![Resume](https://img.shields.io/badge/Download-Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://lncvlsqz.github.io/lncvlsqz/resume/lance-velasquez-resume.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lance_Velasquez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lance-velasquez-620236334)
+[![Gmail](https://img.shields.io/badge/Gmail-velasquezlance7%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:velasquezlance7@gmail.com)
+[![Discord](https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white)](http://discordapp.com/users/1263675052939935776)
 
-- **Interactive Fullscreen Particles Background:**
-  - Dynamic particle field powered by WebGL2 with mouse parallax tracking and click burst wave effects.
-  - Adaptive theme palette: glowing white and mint accents in dark mode, deep emerald and forest slate in light mode.
-  - Bulletproof fail-safe: automatically falls back to an HTML5 Canvas 2D engine if WebGL context is unavailable.
-- **PixelSwap Profile Avatar:**
-  - Seamless pixelation transition that switches avatars dynamically when toggling between light and dark modes.
-  - Responsive layout: left-aligned profile card for desktop, optimized inline presentation on mobile.
-- **Official Social Links with Reveal Tooltips:**
-  - Exact official vector logos for **GitHub**, **LinkedIn**, **Gmail**, and **Discord**.
-  - Interactive reveal tooltip badges that smoothly emerge on cursor hover or mobile tap.
-- **Skills & Capabilities Wave Marquee:**
-  - Three continuous flowing marquee rows (Row 1 left, Row 2 right, Row 3 left) showcasing hardware, electronics, networking, and software skills.
-  - High-quality SVG brand icons for Microsoft Office (Excel, Word, PowerPoint) and Canva.
-- **Project Experience & Timeline:**
-  - Structured showcase of academic and engineering projects (e.g., Bed Micro-Movement Sleep Monitor, SyncShot Technologies, Project Nexus).
-  - Education timeline with institutional branding (ICCT Colleges, Asiatech).
-- **Light / Dark Mode Switch:**
-  - Sticky header toggle with automatic `localStorage` persistence and theme-color meta tag updates.
-  - Refined contrast palettes (`#000000` pure black and `#f5f7f4` soft neutral).
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+### 👨‍💻 About Me
 
-- **Framework & Build:** [React 19](https://react.dev/), [Vite 7](https://vitejs.dev/)
-- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/), Modern CSS variables, Glassmorphism backdrop filters
-- **Icons:** Official SVG brand glyphs & [Lucide React](https://lucide.dev/)
-- **Animations:** Framer Motion, WebGL2 GLSL Shaders, HTML5 Canvas 2D
+I am a passionate **Computer Engineering student** at **ICCT Colleges** with a strong interest in technology, engineering, and innovation. I love getting hands-on with:
+
+- ⚡ **Electronics & Hardware:** Circuit prototyping, hardware troubleshooting, embedded devices.
+- 🌐 **Internet of Things (IoT):** Microcontroller interfacing, sensor telemetry, and smart device monitoring.
+- 🖥️ **Computer Systems & Networking:** System configurations, network fundamentals, and performance maintenance.
+- 💡 **Project Management:** Coordinating team schedules, documentation, and technical demonstrations.
 
 ---
 
-## 📂 Project Structure
+### 🛠️ Skills & Technologies
 
-```text
-lance-portfolio/
-├── public/
-│   ├── images/
-│   │   ├── asiatech-logo.jpg      # High school education logo
-│   │   ├── icct-logo.jpg          # College education logo
-│   │   ├── profile-dark.jpg       # Dark mode avatar
-│   │   └── profile-light.jpg      # Light mode avatar
-│   ├── resume/
-│   │   └── lance-velasquez-resume.pdf # Downloadable / viewable resume
-│   └── skill-logos/
-│       ├── canva.svg              # Canva brand logo
-│       ├── excel.svg              # Microsoft Excel brand logo
-│       ├── powerpoint.svg         # Microsoft PowerPoint brand logo
-│       └── word.svg               # Microsoft Word brand logo
-├── src/
-│   ├── components/
-│   │   ├── FadeIn.jsx             # Accessible scroll reveal wrapper
-│   │   ├── Particles.css          # Particle canvas container styling
-│   │   ├── Particles.jsx          # WebGL2 + 2D Canvas interactive particles
-│   │   ├── PixelSwap.css          # Pixel transition animation styles
-│   │   ├── PixelSwap.jsx          # Avatar pixel-swap effect component
-│   │   ├── ProjectExperience.jsx  # Engineering projects section
-│   │   ├── SiteHeader.jsx         # Sticky navigation & theme toggle
-│   │   ├── Skills.jsx             # 3-row wave marquee skills section
-│   │   ├── SocialLinks.jsx        # Official brand links with reveal tooltips
-│   │   └── Timeline.jsx           # Education history timeline
-│   ├── App.jsx                    # Root application component & layout
-│   ├── data.js                    # Profile details, bio, links, and content
-│   ├── index.css                  # Core CSS variables, typography, and styling
-│   ├── animations.css             # Utility keyframes and micro-interactions
-│   └── main.jsx                   # React DOM root entrypoint
-├── index.html                     # HTML document template
-├── vite.config.js                 # Vite bundler configuration
-└── package.json                   # Dependencies and npm scripts
+| Category | Skills & Tools |
+| :--- | :--- |
+| **Engineering & Hardware** | Basic Computer Hardware & Troubleshooting, Electronics, Embedded Systems, IoT, Computer Systems & Networking |
+| **Software & Development** | Programming Fundamentals, React 19, JavaScript, HTML5, CSS3, Tailwind CSS, WebGL2 |
+| **Productivity & Office** | Microsoft Excel, Microsoft Word, Microsoft PowerPoint |
+| **Design & Media** | Canva, UI Prototyping |
+| **Soft Skills** | Adaptability & Willingness to Learn, Problem-Solving, Critical Thinking, Project Management |
+
+---
+
+### 🚀 Featured Academic Projects
+
+- 🛌 **Bed Micro-Movement Monitor for Sleep Quality Assessment** *(Embedded System COEPRO15)*
+  - Monitored real-time movement data for sleep health evaluation.
+  - Supervised team collaboration during hardware integration and sensor calibration.
+- ⚡ **SyncShot Technologies** *(Computer Engineering Practice and Design COEPD01)*
+  - Coordinated engineering documentation, budgeting, and system presentation materials.
+- 🎯 **Project Nexus** *(Project Manager - COEPRO19)*
+  - Spearheaded project milestone tracking, task delegations, and delivery deadlines.
+
+---
+
+### 🎓 Education
+
+- **Institute of Creative Computer Technology (ICCT Colleges)**  
+  *Bachelor of Science in Computer Engineering* | `2023 – Present`
+- **Asia Technological School of Science and Arts (Asiatech)**  
+  *Senior High School* | `2016 – 2018`
+
+---
+
+### 📊 GitHub Statistics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lncvlsqz&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Lance's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lncvlsqz&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
+
+---
+
+### 📫 Connect with Me
+
+- 🌐 **Personal Portfolio:** [https://lncvlsqz.github.io/lncvlsqz/](https://lncvlsqz.github.io/lncvlsqz/)
+- 💼 **LinkedIn:** [linkedin.com/in/lance-velasquez-620236334](https://www.linkedin.com/in/lance-velasquez-620236334)
+- 📧 **Email:** [velasquezlance7@gmail.com](mailto:velasquezlance7@gmail.com)
+- 💬 **Discord:** [discordapp.com/users/1263675052939935776](http://discordapp.com/users/1263675052939935776)
+- 📱 **Phone:** `0995-650-1787`
+
+---
+
+<details>
+<summary><b>💻 About This Repository (Portfolio Source Code)</b></summary>
+
+<br />
+
+This repository also contains the complete source code for my interactive personal portfolio website.
+
+- **Stack:** React 19, Vite, Tailwind CSS v4, WebGL2 Particle System, Framer Motion
+- **Features:** PixelSwap light/dark avatar switcher, animated 3-row wave skills marquee, interactive particle background, and responsive mobile-first design.
+
+```sh
+# Local Development
+npm install
+npm run dev
+
+# Production Build
+npm run build
 ```
 
----
-
-## 💻 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) version 20+ or 22+
-- npm, pnpm, or yarn
-
-### Installation & Development
-
-1. **Clone or open the directory:**
-
-   ```sh
-   cd "lance portfolio"
-   ```
-
-2. **Install dependencies:**
-
-   ```sh
-   npm install
-   ```
-
-3. **Start the local development server:**
-
-   ```sh
-   npm run dev
-   ```
-
-   Open `http://localhost:5173/` in your browser.
-
-4. **Build for production:**
-
-   ```sh
-   npm run build
-   ```
-
-   Outputs the optimized static bundle to `dist/`.
-
-5. **Preview production build locally:**
-   ```sh
-   npm run preview
-   ```
-
----
-
-## ✏️ Customization
-
-- **Personal Information & Bio:** Edit `src/data.js` to update name, title, bio, contact details, projects, and education.
-- **Resume:** Replace `public/resume/lance-velasquez-resume.pdf` with your updated PDF.
-- **Avatars:** Replace `public/images/profile-light.jpg` and `public/images/profile-dark.jpg`.
-- **Social Links:** Update links in `src/data.js` (`github`, `linkedin`, `email`, `discord`).
-
----
-
-## 📄 License
-
-This portfolio is private and custom-built for **Lance Velasquez**.
+</details>
