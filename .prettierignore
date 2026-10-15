@@ -1,0 +1,6 @@
+node_modules/
+dist/
+builtbychie.vercel.app/
+127.0.0.1_8081/
+_app_min.js
+package-lock.json
